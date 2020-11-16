@@ -1,8 +1,10 @@
 package com.basicConcept;
 
 public class HelloWorld {
+	Integer instanceVariable=10;
 	
-	public void nonStaticTest() {
+	 void nonStaticTest() {
+		Integer localVariable=20;
 		System.out.println("non-static-method");
 	}
 	
